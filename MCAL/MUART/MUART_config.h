@@ -1,0 +1,47 @@
+/*
+ * MUART_config.h
+ *
+ *  Created on: Oct 21, 2021
+ *      Author: Omar
+ */
+
+#ifndef MCAL_MUART_MUART_CONFIG_H_
+#define MCAL_MUART_MUART_CONFIG_H_
+
+
+/*Data Config Options
+MUART_DATA_SIZE_5
+MUART_DATA_SIZE_6
+MUART_DATA_SIZE_7
+MUART_DATA_SIZE_8
+*/
+#define MUART_DATA_BITS		MUART_DATA_SIZE_8
+
+/*Congif number of stop Bits
+MUART_1_STOPBIT
+MUART_2_STOPBITS
+*/
+#define MUART_STOP_BITS		MUART_1_STOPBIT
+
+/*Config Parity Options
+MUART_PARITY_DISABLE
+MUART_PARITY_EVEN
+MUART_PARITY_ODD
+*/
+
+#define MUART_PARITY		MUART_PARITY_DISABLE
+
+/*Baud Rate Options*
+#define MUART_BR_4800_8MHZ
+#define MUART_BR_9600_8MHZ
+#define MUART_BR_115200_8MHZ
+
+#define MUART_BR_4800_16MHZ
+#define MUART_BR_9600_16MHZ
+#define MUART_BR_115200_16MHZ
+*/
+
+#define MUART_BAUD_RATE		MUART_BR_9600_8MHZ
+
+
+#endif /* MCAL_MUART_MUART_CONFIG_H_ */
